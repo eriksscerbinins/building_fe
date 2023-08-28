@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "oswald", sans-serif;
+}
+
+header {
+  background-image: url(/assets/img/firstFoto.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* margin: auto; */
+  /* display: flex;  */
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+  text-align: center;
+  padding-top: 192px;
+}
+
+.main {
+  width: 1110px;
+  margin: 0 auto;
+}

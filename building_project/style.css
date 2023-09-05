@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "oswald";
+}
+
+header {
+  background-image: url(/assets/img/fon.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding-top: 190px;
+}
+
+.main {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.main p {
+  font-size: 20px;
+}
+
+/* лет на рынке */
+
+.years {
+  background-color: white;
+}
+
+.title-header {
+  color: white;
+  text-align: center;
+}
+
+.list-header {
+  color: white;
+  margin: 15px 0 20 0;
+  text-align: center;
+}
+
+.years_card {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+
+.years_card h1 {
+  color: #f5593e;
+  margin-bottom: -20px;
+}
+
+.years_card h3 {
+  color: #939191;
+}
+
+/* Другие проекты */
+
+.ours_projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.three_cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.arena_card img {
+  margin-bottom: 45px;
+  height: 380px;
+  width: 100%;
+}
+
+.orange_line {
+  width: 50px;
+  height: 7px;
+  background-color: #f5593e;
+  margin-bottom: 15px;
+}
+
+.arena_card {
+  height: 588px;
+  width: 350px;
+}
+
+.arena_card h4 {
+  color: #050505;
+  margin-bottom: 20px;
+}
+
+.arena_card p {
+  color: #8c8989;
+}
+
+.text_our_projects {
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 60px;
+  color: #545252;
+}
+
+/* самыке умные проекты */
+
+.most_smarts {
+  height: 150px;
+  background-color: #f5593e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_request {
+  background-color: #ffffff;
+  height: 40px;
+  width: 130px;
+  color: black;
+  border: none;
+}
+
+.orange_2_bloxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.smart_two_texts h1 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: "oswald";
+}
+
+.smart_two_texts h3 {
+  color: #ffffff;
+}
+
+/* фирма */
+
+.firma_description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_building {
+  width: 350px;
+  height: 250px;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.card_building img {
+  width: 60px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.what_we_doing1 h6 {
+  margin-top: 150px;
+  margin-bottom: 66px;
+}
+
+.text_h2_section_description {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.what_we_doing1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_h2_section_descr {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.what_we_doing2 {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* контакты */
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descr_contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts img {
+  display: flex;
+  margin-bottom: 35px;
+  width: 80px;
+  height: 30px;
+}
+
+.text_contacts {
+  text-align: center;
+  margin-top: 115px;
+  margin-bottom: 70px;
+}
+
+.card_adress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text_adress {
+  color: #999999;
+  margin-bottom: 30px;
+}
+
+.card_adress h3 {
+  text-align: center;
+}
+
+.card_phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card_time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contacts_email {
+  color: #f7654a;
+}
+
+.card_email {
+  height: 155px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card_email img {
+  width: 70px;
+  height: 30px;
+}
+
+/* фоотер */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 82px;
+  background-color: #404149;
+  margin-top: 60px;
+}
+
+.footer_div p {
+  color: #ffffff;
+  font-family: "open sans";
+}
+
+.footer_div {
+  display: flex;
+  justify-content: space-between;
+}
